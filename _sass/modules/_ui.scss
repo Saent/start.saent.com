@@ -1,0 +1,246 @@
+.ui {
+  opacity: 0;
+  visibility: hidden;
+  transition: $baseTransition;
+  position: relative;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.ui-header {
+  @include outer-container(100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: $color-bg;
+}
+
+.ui-conversation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 13px 0 10px 13px;
+
+  @include media($small-screen-up) {
+    padding: 28px 0 28px 13px;
+    width: 40%;
+  }
+  @include media($medium-screen-up) {
+    width: 45%;
+  }
+}
+
+.ui-conversation-title {
+  font-family: $fontFamily--ui;
+  font-size: $fontSize--ui * $mobileFontSize;
+  font-weight: $fontWeight--ui;
+  color: $color-text;
+  float: left;
+  margin-left: 24px;
+
+  @include media($medium-screen-up) {
+    font-size: $fontSize--ui;
+  }
+}
+
+.logo {
+  width: 50px;
+  height: auto;
+  float: left;
+
+  @include media($medium-screen-up) {
+    width: 64px;
+  }
+}
+
+.ui-options {
+  width: 100%;
+  text-align: right;
+  padding: 0px 13px 20px 0;
+
+  @include media($small-screen-up) {
+    width: 60%;
+    padding: 28px 13px 28px 0;
+  }
+  @include media($medium-screen-up) {
+    width: 55%;
+  }
+}
+
+.ui-options-dropdown {
+  font-family: $fontFamily--dropdown;
+  font-size: $fontSize--dropdown * $mobileFontSize;
+  font-weight: $fontWeight--dropdown;
+  color: $color-text;
+  padding: 12px 30px 13px 11px;
+  border: 1px solid $color-text;
+  border-radius: 4px;
+  position: relative;
+  display: inline-block;
+  margin-right: 9px;
+  cursor: pointer;
+
+  @include media($medium-screen-up) {
+    padding: 16px 41px 18px 21px;
+    font-size: $fontSize--dropdown;
+    margin-right: 18px;
+  }
+
+  &:after {
+    content: '';
+    border-left: 5px solid rgba(0,0,0,0);
+    border-right: 5px solid rgba(0,0,0,0);
+    border-top: 9px solid $color-text;
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    right: 11px;
+
+    @include media($medium-screen-up) {
+      border-left: 7px solid rgba(0,0,0,0);
+      border-right: 7px solid rgba(0,0,0,0);
+      border-top: 13px solid $color-text;
+      top: 20px;
+      right: 16px;
+    }
+  }
+
+  &.active {
+    &:after {
+      content: '';
+      border-left: 5px solid rgba(0,0,0,0);
+      border-right: 5px solid rgba(0,0,0,0);
+      border-bottom: 9px solid $color-text;
+      border-top: none;
+      display: inline-block;
+      position: absolute;
+
+      @include media($medium-screen-up) {
+        border-left: 7px solid rgba(0,0,0,0);
+        border-right: 7px solid rgba(0,0,0,0);
+        border-bottom: 13px solid $color-text;
+      }
+    }
+  }
+}
+
+.ui-options-cta {
+  font-family: $fontFamily--button;
+  font-size: $fontSize--button * $mobileFontSize;
+  font-weight: $fontWeight--button;
+  background-color: $color-blue;
+  border-radius: 4px;
+  color: #FFF;
+  padding: 12px 30px 13px 11px;
+  position: relative;
+  display: none;
+  cursor: pointer;
+
+  @include media($small-screen-up) {
+    display: inline-block;
+  }
+
+  @include media($medium-screen-up) {
+    padding: 18px 44px 18px 16px;
+    font-size: $fontSize--button;
+  }
+
+  &:after {
+    content: '';
+    border-left: 5px solid rgba(0,0,0,0);
+    border-right: 5px solid rgba(0,0,0,0);
+    border-top: 9px solid #FFF;
+    display: inline-block;
+    position: absolute;
+    top: 14px;
+    right: 12px;
+
+    @include media($medium-screen-up) {
+      border-left: 7px solid rgba(0,0,0,0);
+      border-right: 7px solid rgba(0,0,0,0);
+      border-top: 13px solid #FFF;
+      top: 20px;
+      right: 16px;
+    }
+  }
+
+  &.active {
+    &:after {
+      content: '';
+      border-left: 5px solid rgba(0,0,0,0);
+      border-right: 5px solid rgba(0,0,0,0);
+      border-bottom: 9px solid #FFF;
+      border-top: none;
+      display: inline-block;
+      position: absolute;
+
+      @include media($medium-screen-up) {
+        border-left: 7px solid rgba(0,0,0,0);
+        border-right: 7px solid rgba(0,0,0,0);
+        border-bottom: 13px solid #FFF;
+      }
+    }
+  }
+}
+
+.ui-options-signup {
+  transition: background-color $base-duration $base-timing;
+  font-family: $fontFamily--button;
+  font-size: $fontSize--button * $mobileFontSize;
+  font-weight: $fontWeight--button;
+  background-color: $color-blue;
+  border-radius: 4px;
+  border: 1px solid $color-blue;
+  color: #FFF;
+  padding: 12px 16px 13px 16px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(0,0,0,0);
+    color: $color-blue;
+  }
+
+  @include media($small-screen-up) {
+    display: none
+  }
+}
+
+.ui-foldout {
+  background-color: $color-bg;
+  width: 100%;
+  padding: 28px 13px 28px 16px;
+  border-top: 2px solid $color-gray;
+  opacity: 0;
+  visibility: hidden;
+  transition: $baseTransition;
+  position: absolute;
+  top: 100%;
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  p {
+    font-family: $fontFamily--dropdown;
+    font-size: $fontSize--dropdown * $mobileFontSize;
+    font-weight: $fontWeight--dropdown;
+    line-height: $lineHeight--dropdown;
+    max-width: 700px;
+
+    @include media($medium-screen-up) {
+      font-size: $fontSize--dropdown;
+      margin-left: 90px;
+    }
+  }
+}
+
+.ui-buttons {
+  text-align: right;
+}

@@ -1,0 +1,106 @@
+header: Hello! We're going to do amazing work together
+byline: To start, let me know which system you use
+
+instructions:
+  first: First you need to download and install the app.
+  then: |
+    Once everything is installed and you've created a Saent account, you can
+    connect your Saent button.
+
+mac:
+  connecting: |
+    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+
+  using: |
+    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+
+  connectivity: |
+    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+
+  battery: |
+    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+
+windows:
+  connecting: |
+    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+
+  using: |
+    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+
+  connectivity: |
+    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+
+  battery: |
+    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+    Quisque sit amet dui dui.
+
+problems:
+  left: |
+    First, check out our <a href="#">Knowledge Base</a>, which has answers to
+    commonly asked questions about the Saent app and button.
+  right: |
+    If you can't find the answer you're looking for, please email us at
+    <a href="mailto:support@saent.com">support@saent.com</a>.
