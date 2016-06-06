@@ -76,39 +76,4 @@ $tab-offset: 0.25;
 
 // Modules
 @import "modules/global";
-@import "modules/breaks";
-@import "modules/categorizing";
-@import "modules/challenges";
-@import "modules/distractions";
-@import "modules/download";
-@import "modules/fixed-header";
-@import "modules/index";
 @import "modules/intro";
-@import "modules/life";
-@import "modules/line-dock";
-@import "modules/progress-bar";
-@import "modules/sessions";
-@import "modules/ui";
-
-// Animation
-@import "animation/bg-color";
-@import "animation/line-dock";
-@import "animation/illustrations";
-@import "animation/sessions";
-@import "animation/distractions";
-@import "animation/z-index";
-@import "animation/life";
-@import "animation/breaks";
-@import "animation/download";
-@import "animation/challenges";
-@import "animation/progress-bar";
-
-// illustrations
-@import "svg/breaks";
-@import "svg/categorizing";
-@import "svg/challenges-browser";
-@import "svg/challenges";
-@import "svg/default-browser";
-@import "svg/distractions";
-@import "svg/download-laptop";
-@import "svg/life-scene";
