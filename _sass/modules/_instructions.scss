@@ -1,0 +1,113 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.start__instructions {
+  background-color: $color-blue;
+  color: $color-white;
+  display: none;
+  overflow: hidden;
+  padding: 70px 0 50px 0;
+
+  &.active {
+    display: block;
+  }
+}
+
+.start__instructions.active .start__container {
+  animation: fadeIn 1.33s ease-out forwards;
+}
+
+.instructions__header {
+  text-align: center;
+  padding-bottom: 60px;
+  border-bottom: 3px solid $color-blue--muted;
+}
+
+.instructions__large {
+  font-family: $fontFamily--instructions;
+  font-size: $fontSize--instructions * $mobileFontSize--header;
+  font-weight: $fontWeight--instructions;
+  text-align: center;
+
+  @include media($medium-screen-up) {
+    font-size: $fontSize--instructions
+  }
+}
+
+.instructions__large--then {
+  @extend .instructions__large;
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.instructions__large--header {
+  @extend .instructions__large;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.instructions__title {
+  font-family: $fontFamily--instructions--title;
+  font-size: $fontSize--instructions--title * $mobileFontSize;
+  font-weight: $fontWeight--instructions--title;
+  color: $color-black;
+  margin-bottom: 15px;
+
+  @include media($medium-screen-up) {
+    font-size: $fontSize--instructions--title
+  }
+}
+
+.instructions__content {
+  font-family: $fontFamily--instructions--content;
+  font-size: $fontSize--instructions--content * $mobileFontSize;
+  font-weight: $fontWeight--instructions--content;
+  list-style: decimal;
+  padding-left: 20px;
+
+  @include media($medium-screen-up) {
+    font-size: $fontSize--instructions--content
+  }
+}
+
+.instructions__step {
+  margin-bottom: 15px;
+}
+
+.instructions__columns {
+  padding: 0 35px;
+  @include media($medium-screen-up) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.instructions__connect,
+.instructions__troubleshooting {
+  @extend .instructions__columns;
+}
+
+.instructions__column {
+  @include media($medium-screen-up) {
+    width: 50%;
+  }
+
+  &:first-of-type {
+    margin-bottom: 65px;
+    @include media($medium-screen-up) {
+      padding-right: 25px;
+    }
+  }
+
+  &:last-of-type {
+    @include media($medium-screen-up) {
+      padding-left: 25px;
+    }
+  }
+}

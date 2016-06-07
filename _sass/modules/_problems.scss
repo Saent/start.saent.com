@@ -1,0 +1,54 @@
+.start__problems {
+  background-color: $color-bg;
+  color: $color-text;
+  padding: 60px 0 100px 0;
+}
+
+.problems__title {
+  font-family: $fontFamily--problems;
+  font-size: $fontSize--problems * $mobileFontSize--header;
+  font-weight: $fontWeight--problems;
+  text-align: center;
+  margin-bottom: 60px;
+
+  @include media($medium-screen-up) {
+    font-size: $fontSize--problems
+  }
+
+  strong {
+    font-weight: 800;
+  }
+}
+
+.problems__columns {
+  padding: 0 35px;
+  @include media($medium-screen-up) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.problems__content {
+  font-family: $fontFamily--problems--content;
+  font-size: $fontSize--problems--content * $mobileFontSize;
+  font-weight: $fontWeight--problems--content;
+
+  @include media($medium-screen-up) {
+    font-size: $fontSize--problems--content;
+    width: 50%;
+  }
+
+  &:first-of-type {
+    margin-bottom: 20px;
+    @include media($medium-screen-up) {
+      padding-right: 25px;
+      margin-bottom: 0;
+    }
+  }
+
+  &:last-of-type {
+    @include media($medium-screen-up) {
+      padding-left: 25px;
+    }
+  }
+}

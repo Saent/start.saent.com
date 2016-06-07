@@ -1,76 +1,111 @@
-.intro {
-  @extend .section;
+.start__intro {
+  align-items: center;
   background-color: $color-bg;
-  height: calc(100vh - 100px);
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 750px;
+  text-align: center;
+  padding-bottom: 80px;
 
   @include media($medium-screen-up) {
-    height: calc(100vh - 20px);
+    padding-bottom: 0;
+    height: 100vh;
   }
 }
 
-.intro-content {
-  @include outer-container();
-  display: flex;
-  flex-wrap: wrap-reverse;
-  align-items: center;
-  justify-content: space-between;
-  height: 100%;
-}
-
-.intro-text {
-  width: 100%;
-  padding-left: 80px;
-  position: relative;
-
-  @include media($small-screen-up) {
-    padding-left: 90px;
-    width: 50%;
-  }
-}
-
-.intro-text h1 {
+.intro__text {
   font-family: $fontFamily--intro;
-  font-size: $fontSize--intro * $mobileFontSize;
-  font-weight: $fontWeight--intro;
+  font-size: $fontSize--intro * $mobileFontSize--header;
   color: $color-text;
-  max-width: 353px;
-  line-height: 1.125em;
 
   @include media($medium-screen-up) {
     font-size: $fontSize--intro;
   }
 }
 
-.intro-text .logo {
-  position: absolute;
-  left: 10px;
-
-  @include media($medium-screen-up) {
-    left: 0;
-  }
+.intro__title {
+  @extend .intro__text;
+  font-weight: 600;
+  margin-bottom: 58px;
 }
 
-.intro-text .brand {
-  color: $color-blue;
-  font-weight: 400;
-  margin-bottom: 20px;
-  display: inline-block;
-
-  @include media($medium-screen-up) {
-    margin-bottom: 46px;
-  }
+.intro__byline {
+  @extend .intro__text;
+  font-weight: 300;
+  margin-bottom: 60px;
 }
 
-.intro-screenshot {
+.intro__figure {
+  max-width: 300px;
   width: 100%;
-  max-width: 200px;
-  margin: 0 auto;
+  height: auto;
+  margin: 0 auto 65px auto;
+}
 
-  @include media($small-screen-up) {
-    width: 50%;
-    max-width: 260px;
-  }
+.intro__tab {
+  border: 1px solid $color-blue;
+  border-radius: 4px;
+  color: $color-blue;
+  cursor: pointer;
+  display: block;
+  font-family: $fontFamily--button;
+  font-size: $fontSize--button * $mobileFontSize--header;
+  font-weight: $fontWeight--button;
+  margin: 5px auto 10px auto;
+  text-align: center;
+  transition: background-color $base-duration $base-timing;
+  width: 165px;
+
   @include media($medium-screen-up) {
-    max-width: 546px;
+    display: inline-block;
+    font-size: $fontSize--button
   }
+
+  &.active,
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $color-blue;
+    color: $color-white;
+
+    .intro__tab__svg {
+      fill: $color-white;
+    }
+  }
+}
+
+.intro__tab--mac {
+  @extend .intro__tab;
+  @include media($medium-screen-up) {
+    margin-right: 20px;
+  }
+}
+
+
+.intro__tab__icon {
+  display: inline-block;
+  height: auto;
+  -webkit-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+.intro__tab__icon--mac {
+  @extend .intro__tab__icon;
+  width: 32px;
+  height: 38px;
+}
+
+.intro__tab__icon--windows {
+  @extend .intro__tab__icon;
+  width: 38px;
+}
+
+.intro__tab__text {
+  padding: 20px 0 20px 12px;
+  display: inline-block;
+}
+
+.intro__tab__svg {
+  fill: $color-blue;
 }
