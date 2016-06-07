@@ -1,114 +1,59 @@
-.download {
-  @extend .section;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 50vh;
+.download-link {
+  margin: 50px 0 60px 0;
 }
 
-.download-illustration {
+.download-button {
+  background-color: $color-white;
+  border: 1px solid $color-white;
+  border-radius: 4px;
+  color: $color-blue;
+  display: inline-block;
+  font-family: $fontFamily--button;
+  font-size: $fontSize--button * $mobileFontSize--header;
+  font-weight: 700;
+  margin-bottom: 10px;
   text-align: center;
-  position: relative;
-  z-index: 500;
-}
+  transition: background-color $base-duration $base-timing;
 
-.download-buttons {
-  margin-bottom: 60px;
-  display: none;
-
-  @include media($tablet-screen-up) {
-    display: block;
+  @include media($medium-screen-up) {
+    font-size: $fontSize--button
   }
 
-  .btn {
-    @include media($mobile-screens) {
-      display: block;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: $color-blue;
+    color: $color-white;
+
+    .intro__tab__svg {
+      fill: $color-white;
     }
   }
 }
 
-.download-st2 {
-  fill: #FFF;
-  transition: $colorTransition;
-
-}
-
-.download-laptop {
-  position: relative;
-  width: 200px;
-  margin: 0 auto;
-
-  @include media($small-screen-up) {
-    width: 300px;
-  }
-  @include media($medium-screen-up) {
-    width: auto;
-  }
-}
-
-.download-screenshot {
+.download-button__text {
   display: inline-block;
-  position: absolute;
-  width: 158px;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 8px;
-  border-radius: 4px;
+  padding: 22px 0 22px 10px;
+}
 
-  @include media($small-screen-up) {
-    width: 238px;
-    top: 10px;
-  }
+.download-button__caption {
+  color: $color-white;
+  font-family: $fontFamily--caption;
+  font-size: $fontSize--caption * $mobileFontSize--header;
+  font-weight: $fontWeight--caption;
 
   @include media($medium-screen-up) {
-    top: 20px;
-    width: 360px;
+    font-size: $fontSize--caption
   }
+
 }
 
-.download-form {
-  display: block;
-  margin-top: 20px;
-
-  @include media($tablet-screen-up) {
-    display: none;
-  }
+.download-button--mac {
+  @extend .download-button;
+  width: 250px;
 }
 
-.download-form-intro {
-  font-family: $fontFamily-heading;
-  font-size: $fontSize--form * $mobileFontSize;
-  font-weight: $fontWeight--form;
-  line-height: 1.5;
-  color: #FFF;
-  margin-bottom: 15px;
-  max-width: 300px;
-
-  @include media($medium-screen-up) {
-    font-size: $fontSize--form;
-  }
-}
-
-.download-form-label {
-  font-family: $fontFamily-heading;
-  font-size: $fontSize--form * $mobileFontSize;
-  font-weight: $fontWeight--form;
-  line-height: 1.5;
-  color: #FFF;
-  margin-bottom: 5px;
-
-  @include media($medium-screen-up) {
-    font-size: $fontSize--form;
-  }
-}
-
-
-
-[data-animation="download"] {
-  .ui-options {
-    display: none;
-  }
-  .ui-conversation {
-    width: 100%;
-  }
+.download-button--windows {
+  @extend .download-button;
+  width: 310px;
 }

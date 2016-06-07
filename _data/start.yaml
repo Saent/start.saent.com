@@ -8,98 +8,140 @@ instructions:
     connect your Saent button.
 
 mac:
-  connecting: |
-    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
+  connecting:
+    - |
+      Download, install, launch the Saent software.
+    - |
+      Go through the onboarding process and setup a Saent account.
+    - |
+      Click on the Saent taskbar icon.
+    - |
+      Go to “Saent devices >”. Wait a few seconds until you see the device code change to your user name, then select your device from the list.
+    - |
+      The left bottom part of the LED arc should briefly flash a few times in quick succession, indicating it has connected over Bluetooth.
+    - |
+      If you have not yet gotten a notification update with a new software update, go to the Saent menu in the left top and select “Check for Updates…” to make sure you’re running the latest version.
+    - |
+      If a new update is available, follow the instructions on screen. You might get a notification that a firmware upgrade is available. Install it by following the instructions. This can take several minutes, during which the device might seem powered off.
+    - |
+      Wait until you get a notification that the firmware upgrade has been installed.
+    - |
+      You are now ready to use the device.
 
-  using: |
-    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
+      <br/> <br/>
+      <em>Note: you do not need to use the included USB Bluetooth dongle, this is only required for Windows users.</em>
 
-  connectivity: |
-    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
 
-  battery: |
-    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
+  using:
+    - |
+      You can navigate through the app by tapping on the left, right, bottom, and top edges of the button.
+    - |
+      When the Saent app is open, press the button to quickly launch a session (at your default session length).
+    - |
+      When the Saent app is closed, press the button to launch Saent and immediately jump into a session.
+    - |
+      When the Saent app is closed, tap the button to open Saent.
+    - |
+      When the Saent device is not connected to your computer by Bluetooth, you can still use it to time activities away from your computer by pressing the button to start an offline session. For now, this will always be based on your default session length (which you can change under Preferences). The data will be synced (and soon included in your Insights) the next time you connect the device to your computer.
+
+  connectivity:
+    - |
+      Make sure Bluetooth on your computer is turned on.
+
+    - |
+      Make sure the device is turned on (if you don’t see any light in the LED, it’s turned off or the battery is dead; see battery and charging section).
+    - |
+      If your device does not connect, start by going to the taskbar icon dropdown menu.
+    - |
+      Go to “Saent Devices >” and see if your device is listed there. If the device name listed is the same as your username with a checkmark next to it, that means it is connected. If it shows another number or code, try reconnecting the device again by turning it off and on again (hold the button two times for 1.5 seconds); this may take a few seconds. Also make sure that you’re logged in to your Saent account.
+    - |
+      If your username is listed in the device overview, try clicking your name manually and see if the left corner of the LED arc now flashes several times. If so, you should now be connected.
+    - |
+      If it doesn’t, connect your device through USB. When connecting via USB, plug in your device using the USB cable supplied and wait until you see your device appear in the 'Saent devices' list inside the drop down menu. This may take a minute to connect the first time so please be patient. Then see if it allows you to control the app while connected through USB.
+    - |
+      Once you’ve done this, please get in touch with our support and let us know whether or not your device communicated with the app while connected through USB. This way we’ll know whether there’s a problem with your Bluetooth connection, or if the entire device is suffering from another problem.
+
+
+
+  battery:
+    - |
+      When the battery starts running out, the left bottom of the arc will begin flashing red.
+    - |
+      You can charge the device simply by plugging in the USB cable at the top of the button.
+    - |
+      Once the cable has been plugged in, the LED of the arc should turn yellow.
+    - |
+      If nothing happens when you plug in the USB cable, please get in touch with our support.
 
 windows:
-  connecting: |
-    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
+  connecting:
+    - |
+      Download and install the Saent software.
+    - |
+      Go through the onboarding process and setup a Saent account.
+    - |
+      Make sure to leave the options for installing Dongle and USB drivers towards the end of the installation wizard checked.
+    - |
+      Complete the two separate driver wizards for USB and the dongle.
+    - |
+      Insert the USB dongle into one of your USB ports.
+    - |
+      Turn on the device by clicking and holding the top cover for about one second.
+    - |
+      Click on the Saent taskbar icon.
+    - |
+      Go to “Saent devices >” . Wait until you see Your device name change to the user name - this may take a few seconds.
+    - |
+      Select your device from the list.
+    - |
+      The left bottom part of the LED arc should briefly flash a few times in quick succession, indicating it has connected over Bluetooth.
+    - |
+       You are now ready to use the device.
 
-  using: |
-    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
+  using:
+    - |
+      You can tap on the left, right, bottom and top edges of the button to control the menus in the app.
+    - |
+      When the Saent app is open, you can press the button to launch a session (at your default session length).
+    - |
+      When the Saent app is closed, press the button to launch Saent and immediately jump into a session.
+    - |
+      When the Saent app is closed, tap the button to launch a session.
+    - |
+      When the Saent device is not connected to your computer by Bluetooth, you can still use it to time activities away from your computer. For now, this will always be based on your default session length. The data will be synced (and soon included in your Insights) the next time you connect the device to your computer.
 
-  connectivity: |
-    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
+  connectivity:
+    - |
+      Make sure Bluetooth on your computer is turned on.
+    - |
+      Make sure the device is turned on (if you don’t see any light in the LED, it’s turned off or the battery is dead; see battery and charging section).
+    - |
+      Make sure you have inserted the USB dongle that has been provided.
+    - |
+      If your device does not connect, start by going to the taskbar icon dropdown menu.
+    - |
+      Go to “Saent Devices >” and see if your device is listed there. Wait until you see your device name change to your Saent user name - this may take a few seconds.
+    - |
+      If it is, try clicking on it manually and see if the left corner of the LED arc now flashes several times. If so, you should now be connected.
+    - |
+      If it doesn’t, connect your device through USB. When connecting via USB, plug in your device using the USB cable supplied and wait until you see your device appear in the 'Saent devices' list inside the drop down menu. This may take a minute to connect the first time so please be patient. Then see if it allows you to control the app while connected through USB.
+    - |
+      Once you’ve done this, please get in touch with our support and let us know whether or not your device communicated with the app while connected through USB. This way we’ll know whether there’s a problem with your Bluetooth connection, or if the entire device is suffering from another problem.
 
-  battery: |
-    1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
-    3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
-    quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
-    Quisque sit amet dui dui.
+
+  battery:
+    - |
+      When the battery starts running out, the left bottom of the arc will begin flashing red.
+    - |
+      You can charge the device simply by plugging in the USB cable at the top of the button.
+    - |
+      Once the cable has been plugged in, the LED of the arc should turn yellow.
+    - |
+      If nothing happens when you plug in the USB cable, please get in touch with our support.
 
 problems:
   left: |
-    First, check out our <a href="#">Knowledge Base</a>, which has answers to
+    First, check out our <a href="http://help.saent.com" target="_blank">Knowledge Base</a>, which has answers to
     commonly asked questions about the Saent app and button.
   right: |
     If you can't find the answer you're looking for, please email us at
