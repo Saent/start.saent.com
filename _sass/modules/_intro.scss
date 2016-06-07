@@ -36,10 +36,14 @@
 }
 
 .intro__figure {
-  max-width: 300px;
+  max-width: 200px;
   width: 100%;
   height: auto;
   margin: 0 auto 65px auto;
+
+  @include media($medium-screen-up){
+    max-width: 300px;
+  }
 }
 
 .intro__tab {
