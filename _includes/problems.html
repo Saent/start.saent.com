@@ -1,10 +1,14 @@
 <div class="start__problems">
-  <h1>Problems? <strong>We can help!</strong></h1>
+  <div class="start__container">
+    <h1 class="problems__title">Problems? <strong>We can help!</strong></h1>
 
-  <div class="start__content">
-    {{ site.data.start.problems.left }}
-  </div>
-  <div class="start__content">
-    {{ site.data.start.problems.right }}
+    <div class="problems__columns">
+      <div class="problems__content">
+        {{ site.data.start.problems.left }}
+      </div>
+      <div class="problems__content">
+        {{ site.data.start.problems.right }}
+      </div>
+    </div>
   </div>
 </div>

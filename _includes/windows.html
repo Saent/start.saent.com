@@ -1,31 +1,56 @@
-<div class="start__instructions">
-  <div class="start__instructions__header">
-    <h1>{{ site.data.start.instructions.first }}</h1>
-    <h2>{{ site.data.start.instructions.then }}</h2>
+<div class="start__instructions" id="windows" data-instructions="windows">
+  <div class="start__container">
+    <div class="instructions__header">
+      <h1 class="instructions__large">{{ site.data.start.instructions.first }}</h1>
+      {% include _download--windows.html %}
+      <h2 class="instructions__large--then">{{ site.data.start.instructions.then }}</h2>
+    </div>
+
+    <div class="instructions__connect">
+
+      <h1 class="instructions__large--header">Connect your Hardware</h1>
+
+      <div class="instructions__column">
+        <h3 class="instructions__title">Connecting Your Device</h3>
+        <ol class="instructions__content">
+          {% for step in site.data.start.windows.connecting %}
+            <li class="instructions__step">{{ step }}</li>
+          {% endfor %}
+        </ol>
+      </div>
+
+      <div class="instructions__column">
+        <h3 class="instructions__title">Using your device</h3>
+        <ol class="instructions__content">
+          {% for step in site.data.start.windows.using %}
+            <li class="instructions__step">{{ step }}</li>
+          {% endfor %}
+        </ol>
+      </div>
+    </div>
+
+    <div class="instructions__troubleshooting">
+
+      <h1 class="instructions__large--header">Troubleshooting for Windows</h1>
+
+      <div class="instructions__column">
+        <h3 class="instructions__title">Connectivity Issues</h3>
+        <ol class="instructions__content">
+          {% for step in site.data.start.windows.connectivity %}
+            <li class="instructions__step">{{ step }}</li>
+          {% endfor %}
+        </ol>
+      </div>
+
+      <div class="instructions__column">
+        <h3 class="instructions__title">Battery</h3>
+        <ol class="instructions__content">
+          {% for step in site.data.start.windows.battery %}
+            <li class="instructions__step">{{ step }}</li>
+          {% endfor %}
+        </ol>
+      </div>
+    </div>
+
   </div>
-
-  <div class="start_instructions__connect">
-    <h3>Connecting your device</h3>
-    <p>
-      {{ site.data.start.windows.connecting }}
-    </p>
-
-    <h3>Using your device</h3>
-    <p>
-      {{ site.data.start.windows.using }}
-    </p>
-  </div>
-
-  <div class="start_instructions__toubleshooting">
-    <h3>Connectivity Issues</h3>
-    <p>
-      {{ site.data.start.windows.connectivity }}
-    </p>
-
-    <h3>Battery</h3>
-    <p>
-      {{ site.data.start.windows.battery }}
-    </p>
-  </div>
-
 </div>
