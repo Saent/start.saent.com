@@ -50,10 +50,12 @@
 
 .download-button--mac {
   @extend .download-button;
-  width: 250px;
+  max-width: 250px;
+  width: 100%;
 }
 
 .download-button--windows {
   @extend .download-button;
-  width: 310px;
+  width: 100%;
+  max-width: 310px;
 }
