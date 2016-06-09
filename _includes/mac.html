@@ -11,18 +11,18 @@
       <h1 class="instructions__large--header">Connect your Hardware</h1>
 
       <div class="instructions__column">
-        <h3 class="instructions__title">Connecting Your Device</h3>
+        <h3 class="instructions__title">{{ site.data.start.mac.connecting.title }}</h3>
         <ol class="instructions__content">
-          {% for step in site.data.start.mac.connecting %}
+          {% for step in site.data.start.mac.connecting.content %}
             <li class="instructions__step">{{ step }}</li>
           {% endfor %}
         </ol>
       </div>
 
       <div class="instructions__column">
-        <h3 class="instructions__title">Using your device</h3>
+        <h3 class="instructions__title">{{ site.data.start.mac.using.title }}</h3>
         <ol class="instructions__content">
-          {% for step in site.data.start.mac.using %}
+          {% for step in site.data.start.mac.using.content %}
             <li class="instructions__step">{{ step }}</li>
           {% endfor %}
         </ol>
@@ -34,18 +34,18 @@
       <h1 class="instructions__large--header">Troubleshooting for Mac</h1>
 
       <div class="instructions__column">
-        <h3 class="instructions__title">Connectivity Issues</h3>
+        <h3 class="instructions__title">{{ site.data.start.mac.connectivity.title }}</h3>
         <ol class="instructions__content">
-          {% for step in site.data.start.mac.connectivity %}
+          {% for step in site.data.start.mac.connectivity.content %}
             <li class="instructions__step">{{ step }}</li>
           {% endfor %}
         </ol>
       </div>
 
       <div class="instructions__column">
-        <h3 class="instructions__title">Battery</h3>
+        <h3 class="instructions__title">{{ site.data.start.mac.battery.title }}</h3>
         <ol class="instructions__content">
-          {% for step in site.data.start.mac.battery %}
+          {% for step in site.data.start.mac.battery.content %}
             <li class="instructions__step">{{ step }}</li>
           {% endfor %}
         </ol>
