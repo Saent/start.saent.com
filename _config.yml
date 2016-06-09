@@ -9,7 +9,7 @@
 title: Hi, I'm Saent
 email: support@saent.com
 description: Saent helps you to focus, be more productive and build better work habits.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/start.saent.com" # the subpath of your site, e.g. /blog
 url: "http://start.saent.com/" # the base hostname & protocol for your site
 
 # Build settings
