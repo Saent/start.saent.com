@@ -78,6 +78,16 @@
 
 .instructions__step {
   margin-bottom: 15px;
+  a {
+    color: $color-white;
+    text-decoration: underline;
+
+    &:active,
+    &:focus,
+    &:hover {
+      color: shade($color-blue, 25%);
+    }
+  }
 }
 
 .instructions__columns {
