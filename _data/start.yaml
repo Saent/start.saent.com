@@ -23,7 +23,7 @@ mac:
       - |
         Click on the Saent taskbar icon.
       - |
-        Go to “Saent devices >”. Wait a few seconds until you see your device appear on the list and select it. (If you are setting up multiple Saent devices in close proximity, it is best to do them one at a time so you can determine which device you are connecting to. Once you have connected the first time, the device name will change to your Saent username in the device list.)
+        Go to “Saent devices >”. Wait a few seconds until you see your device appear on the list as a string of numbers and select it. (If you are setting up multiple Saent devices in close proximity, it is best to do them one at a time so you can determine which device you are connecting to. Once you have connected the first time, the device name will change to your Saent username in the device list.)
       - |
         The left bottom part of the LED halo should briefly flash a few times in quick succession, indicating it has connected over Bluetooth.
       - |
@@ -71,8 +71,6 @@ mac:
       - |
         Once you’ve done this, please email <a href="mailto:support@saent.com">support@saent.com</a> and let us know whether or not your device communicated with the app while connected through USB. This way we’ll know whether there’s a problem with your Bluetooth connection, or if the entire device is suffering from another problem.
 
-
-
   battery:
     title: Battery and charging
     content:
@@ -84,6 +82,8 @@ mac:
         Once the cable has been plugged in, the LED of the halo should turn yellow.
       - |
         If nothing happens when you plug in the USB cable, please get in touch with our support.
+      -
+        You can check your battery’s charge by looking at the halo during charging (it will be fully lit when 100% charged) or looking the device drop down menu in the taskbar. (<a href="http://i.imgur.com/x8jyKAE.jpg" target="_blank">Screenshot</a>)
 
 windows:
   connecting:
@@ -106,7 +106,7 @@ windows:
       - |
         Click on the Saent taskbar icon.
       - |
-        Go to “Saent devices >”. Wait a few seconds until you see your device appear on the list and select it. (If you are setting up multiple Saent devices in close proximity, it is best to do them one at a time so you can determine which device you are connecting to. Once you have connected the first time, the device name will change to your Saent username in the device list.)
+        Go to “Saent devices >”. Wait a few seconds until you see your device appear on the list as a string of numbers and select it. (<a href="http://i.imgur.com/7TONiMa.jpg" target="_blank">Screenshot</a>) (If you are setting up multiple Saent devices in close proximity, it is best to do them one at a time so you can determine which device you are connecting to. Once you have connected the first time, the device name will change to your Saent username in the device list.)
       - |
         Select your device from the list.
       - |
@@ -154,7 +154,6 @@ windows:
       - |
         Once you’ve done this, please email <a href="mailto:support@saent.com">support@saent.com</a> and let us know whether or not your device communicated with the app while connected through USB. This way we’ll know whether there’s a problem with your Bluetooth connection, or if the entire device is suffering from another problem.
 
-
   battery:
     title: Battery and charging
     content:
@@ -166,6 +165,8 @@ windows:
         Once the cable has been plugged in, the LED of the halo should turn yellow.
       - |
         If nothing happens when you plug in the USB cable, please get in touch with our support.
+      -
+        You can check your battery’s charge by looking at the halo during charging (it will be fully lit when 100% charged) or looking the device drop down menu in the taskbar.
 
 problems:
   left: |
