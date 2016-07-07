@@ -36,13 +36,15 @@ mac:
         You are now ready to use the device.
 
         <br/> <br/>
-        <em>Note: you do not need to use the included USB Bluetooth dongle, this is only required for Windows users.</em>
+        <em>Note: Saent requires Bluetooth Low Energy (BLE), which is compatible with BT4 and up. For older Macs, you’ll need to connect your Saent via USB for the time being. We’re working on a driver update so that you can use the included Bluetooth dongle. For more information, please contact <a href="mailto:support@saent.com">support@saent.com</a>. </em>
 
 
   using:
     title: Using your device
     content:
       - |
+        Not sure where to begin? Watch the <a href="https://www.youtube.com/watch?v=rEHNZU1IJRo" target="_blank">Saent introduction video</a> to get an overview of how Saent improves your work though single-tasking, focus, reflection, and motivation. 
+      - |  
         You can navigate through the app by tapping on the left, right, bottom, and top edges of the button.
       - |
         When the Saent app is open, press the button to quickly launch a session (at your default session length).
@@ -57,7 +59,7 @@ mac:
     title: Connectivity issues
     content:
       - |
-        Make sure Bluetooth on your computer is turned on.
+        Make sure Bluetooth on your computer is turned on. (Remember: Saent requires Bluetooth Low Energy (BLE), which is compatible with BT4 and up. For older Macs, you’ll need to connect your Saent via USB for the time being. We’re working on a driver update so that you can use the included Bluetooth dongle. For more information, please contact <a href="mailto:support@saent.com">support@saent.com</a>.)
       - |
         Make sure the device is turned on (if you don’t see any light in the LED, it’s turned off or the battery is dead; see battery and charging section).
       - |
@@ -123,6 +125,8 @@ windows:
   using:
     title: Using your device
     content:
+      - |
+        Not sure where to begin? Watch the <a href="https://www.youtube.com/watch?v=rEHNZU1IJRo" target="_blank">Saent introduction video</a> to get an overview of how Saent improves your work though single-tasking, focus, reflection, and motivation.
       - |
         You can tap on the left, right, bottom and top edges of the button to control the menus in the app.
       - |
