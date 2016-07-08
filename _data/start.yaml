@@ -23,7 +23,7 @@ mac:
       - |
         Click on the Saent taskbar icon.
       - |
-        Go to “Saent devices >”. Wait a few seconds until you see your device appear on the list as a string of numbers and select it. (<a href="http://i.imgur.com/7TONiMa.jpg" target="_blank">Screenshot</a>) (If you are setting up multiple Saent devices in close proximity, it is best to do them one at a time so you can determine which device you are connecting to. Once you have connected the first time, the device name will change to your Saent username in the device list.)
+        * Go to “Saent devices >”. Wait a few seconds until you see your device appear on the list as a string of numbers and select it. (<a href="http://i.imgur.com/7TONiMa.jpg" target="_blank">Screenshot</a>) (If you are setting up multiple Saent devices in close proximity, it is best to do them one at a time so you can determine which device you are connecting to. Once you have connected the first time, the device name will change to your Saent username in the device list.)
       - |
         The left bottom part of the LED halo should briefly flash a few times in quick succession, indicating it has connected over Bluetooth.
       - |
@@ -36,7 +36,7 @@ mac:
         You are now ready to use the device.
 
         <br/> <br/>
-        <em>Note: Saent requires Bluetooth Low Energy (BLE), which is compatible with BT4 and up. For older Macs, you’ll need to connect your Saent via USB for the time being. We’re working on a driver update so that you can use the included Bluetooth dongle. For more information, please contact <a href="mailto:support@saent.com">support@saent.com</a>. </em>
+        <em>* Note: Saent requires Bluetooth Low Energy (BLE), which is compatible with BT4 and up. For older Macs, you’ll need to connect your Saent via USB for the time being. We’re working on a driver update so that you can use the included Bluetooth dongle. For more information, please contact <a href="mailto:support@saent.com">support@saent.com</a>. </em>
 
 
   using:
