@@ -23,7 +23,7 @@ mac:
       - |
         Click on the Saent taskbar icon.
       - |
-        * Go to “Saent devices >”. Wait a few seconds until you see your device appear on the list as a string of numbers and select it. (<a href="http://i.imgur.com/7TONiMa.jpg" target="_blank">Screenshot</a>) (If you are setting up multiple Saent devices in close proximity, it is best to do them one at a time so you can determine which device you are connecting to. Once you have connected the first time, the device name will change to your Saent username in the device list.)
+        Go to “Saent devices >”. Wait a few seconds until you see your device appear on the list as a string of numbers and select it.* (<a href="http://i.imgur.com/7TONiMa.jpg" target="_blank">Screenshot</a>) (If you are setting up multiple Saent devices in close proximity, it is best to do them one at a time so you can determine which device you are connecting to. Once you have connected the first time, the device name will change to your Saent username in the device list.)
       - |
         The left bottom part of the LED halo should briefly flash a few times in quick succession, indicating it has connected over Bluetooth.
       - |
